@@ -1,5 +1,6 @@
 [Babelium Assignment Plugin]: http://github.com/babelium/moodle-assignment_babelium
 [Babelium]: http://babeliumproject.com
+[Request a set of API keys]: http://babeliumproject.com/moodleapi.php
 
 #Babelium Filter for Moodle
 Babelium is an open source video platform aimed at second language learning. Language learners are able to record their voice using a browser and the cuepoint-constrained videos that are freely available at our main website.
@@ -29,7 +30,7 @@ Now the entire project should be in the `moodle-filter_babelium/` directory.
 We provide you a demo Babelium server at [Babelium][] for testing this plugin. To use this server you need to:
 	
 1. Sign Up for a free account
-2. Request a set of API keys for your Moodle server's domain (you will also need the account name you created in the previous step)
+2. [Request a set of API keys][] for your Moodle server's domain (you will also need the account name you created in the previous step)
 
 ##Installation
 The filter adds a new settings panel in (Site Administration -&gt; Modules -&gt; Filter -&gt; Manage Filters -&gt; Babelium) that allows your admin to configure the plugin without having access to the server's filesystem:
