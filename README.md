@@ -35,11 +35,11 @@ We provide you a demo Babelium server at [Babelium][] for testing this plugin. T
 ##Installation
 The filter adds a new settings panel in (Site Administration -&gt; Modules -&gt; Filter -&gt; Manage Filters -&gt; Babelium) that allows your admin to configure the plugin without having access to the server's filesystem:
 
-	```
-	$ mkdir <moodle_directory>/filter/babelium
-	$ cd moodle-filter_babelium
-	$ cp -r * <moodle_directory>/filter/babelium
-	```
+```sh
+$ mkdir <moodle_directory>/filter/babelium
+$ cd moodle-filter_babelium
+$ cp -r * <moodle_directory>/filter/babelium
+```
 
 After copying the files, log in with an admin account into your Moodle site. Moodle should automatically detect that a new plugin is being added and prompt you for actions to take. If this is not the case, browse to the following URL to force the plugin installation page to appear:
 
